@@ -1,0 +1,102 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "1.0.0",
+        "title": "Games by category",
+        "description": "Games API",
+        "license": {
+            "name": "MIT",
+            "url": "https://opensource.org/licenses/MIT"
+        }
+    },
+    "host": "localhost:8007",
+    "basePath": "/",
+    "tags": [
+        {
+            "name": "Games Api",
+            "description": "API for a list of games by category"
+        }
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/games/racing/{gameId}": {
+            "get": {
+                "tags": [
+                    "Addition Service"
+                ],
+                "summary": "Get Game(s)",
+                "parameters": [
+                    {
+                        "name": "gameId",
+                        "in": "path",
+                        "description": "enter game id for one game or leave blank for all games"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "This service allows you to add two numbers together"
+                    }
+                }
+            }
+        },
+        "/games/shooter": {
+            "get": {
+                "tags": [
+                    "Addition Service"
+                ],
+                "summary": "Add 2 numbers",
+                "parameters": [
+                    {
+                        "name": "num1",
+                        "in": "query",
+                        "description": "the First Number"
+                    },
+                    {
+                        "name": "num2",
+                        "in": "query",
+                        "description": "the Second number"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "This service allows you to add two numbers together"
+                    }
+                }
+            }
+        },
+        "/games/strategy": {
+            "get": {
+                "tags": [
+                    "Addition Service"
+                ],
+                "summary": "Add 2 numbers",
+                "parameters": [
+                    {
+                        "name": "num1",
+                        "in": "query",
+                        "description": "the First Number"
+                    },
+                    {
+                        "name": "num2",
+                        "in": "query",
+                        "description": "the Second number"
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "This service allows you to add two numbers together"
+                    }
+                }
+            }
+        },
+        "/calculator/add": {}
+    }
+}
