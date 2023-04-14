@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "title": "Base Camp Wanaka",
+        "type": "Sport, Indoor",
+        "description": "The Sport Climbing Wall is a great choice for climbers of any ability and for anyone who wants to give the sport of rock climbing a go.",
+        "routes": 35,
+        "region": "otago",
+        "town": "wanaka",
+        "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2835.3768954808506!2d169.13415695088895!3d-44.71191897899672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa9d548b614b6a241%3A0xbd80811f588630d6!2sBasecamp%20Wanaka%20Climbing%20Centre!5e0!3m2!1sen!2snz!4v1680125481219!5m2!1sen!2snz"
+    },
+    {
+        "id": 2,
+        "title": "Hostpital Flat",
+        "type": "Sport, Outdoor",
+        "description": "The cliffs and boulders of Hospital Flat offer a wide selection of styles and difficulty and it is common to find school groups, guided parties and recreational users all enjoying the area. Most of the cliffs get maximum daily sun, making them an ideal destination in winter months. The crags dry quickly after all but the most torrential deluges (which can cause minor seepage). (All crag information from Wanaka Rock 7th Edition)",
+        "routes": 496,
+        "region": "otago",
+        "town": "wanaka",
+        "location": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2838.2967722970816!2d168.96891395088673!3d-44.652287978997165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDM5JzA4LjIiUyAxNjjCsDU4JzE2LjAiRQ!5e0!3m2!1sen!2snz!4v1680125241581!5m2!1sen!2snz"
+    },
+    {
+        "id": 3,
+        "title": "Mt Iron",
+        "type": "Sport, Outdoor",
+        "description": "Generally derided by visitors this area isnt actually too bad. There are some hidden gems and the rock lends itself to slopers, interesting holds and moves. The rock can also be friable, dirty and covered in pigeon poo. Generally steep and away from the mountains it is often dry when all else is wet.",
+        "routes": 66,
+        "region": "otago",
+        "town": "wanaka",
+        "location": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2836.452247001254!2d169.1669549508881!3d-44.68996497899674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDQxJzIzLjkiUyAxNjnCsDEwJzA4LjkiRQ!5e0!3m2!1sen!2snz!4v1680125340044!5m2!1sen!2snz"
+    },
+    {
+        "id": 4,
+        "title": "Matukituki Valley",
+        "type": "Sport, Outdoor",
+        "description": "Various crags after the sealed road ends at Treble Cone, up to the Raspberry flat car park.",
+        "routes": 54,
+        "region": "otago",
+        "town": "wanaka",
+        "location": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d57428.262641976035!2d168.76281542356992!3d-44.504617232691814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDTCsDMwJzM3LjUiUyAxNjjCsDQ4JzM0LjkiRQ!5e0!3m2!1sen!2snz!4v1680125005635!5m2!1sen!2snz"
+    },
+    {
+        "id": 5,
+        "title": "Wye Creek",
+        "Type": "Sport, Outdoor",
+        "description": "Many of NZ climbers say this is THE BEST place to climb in NZ. Located not far from Queenstown (20 min drive) more then 200 lines to climb with grades from 14-26. Many lines 30-35 m Fantastic view to lake Wakatipu as a bonus.",
+        "routes": 297,
+        "region": "otago",
+        "town": "queenstown",
+        "location": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d59872.56835744845!2d168.74710893935597!3d-45.09907917356042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDA3JzA5LjYiUyAxNjjCsDQ3JzIxLjkiRQ!5e0!3m2!1sen!2snz!4v1680125887566!5m2!1sen!2snz"
+    },
+    {
+        "id": 6,
+        "title": "Hawk Wall",
+        "type": "Sport, Outdoor",
+        "description": "A variety of steep routes and slabby climbing on weathered schist with amazing views over the lake.",
+        "routes": 42,
+        "region": "otago",
+        "town": "queenstown",
+        "location": "https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d2815.6884611765527!2d168.7626209509038!3d-45.11238297899579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDA2JzQ0LjYiUyAxNjjCsDQ1JzUzLjMiRQ!5e0!3m2!1sen!2snz!4v1680126059962!5m2!1sen!2snz"
+    },
+    {
+        "id": 7,
+        "title": "Base Camp Queenstown",
+        "type": "Sport, Indoor",
+        "description": "Under the shadow of The Remarkables you can't help but be inspired to climb on our brand new Sport Climbing Wall.   With top-rope and lead climbing routes, plus an Olympic-style speed wall, there is no better place to climb, whatever your ability and experience.",
+        "routes": 57,
+        "region": "otago",
+        "town": "queenstown",
+        "location": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2820.095696661125!2d168.7473713!3d-45.0229828!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa9d51f2750eb1a37%3A0xb5673873d30b09df!2sBasecamp%20Adventures%20Queenstown%20Climbing%20Centre!5e0!3m2!1sen!2snz!4v1680126115662!5m2!1sen!2snz"
+    }
+]
