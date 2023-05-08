@@ -9,7 +9,7 @@ import { Typography } from "@mui/material";
 function CragsPage() {
     const regionContext = useContext(RegionContext)
     const { local } = useContext(LocalContext)
-    // if (CragsDataContext.cragsData === '') { navigate("/") }
+
 
     return (
         regionContext.region === '' ? <Navigate to="/" /> :

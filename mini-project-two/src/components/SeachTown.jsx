@@ -37,6 +37,7 @@ function SearchTown() {
 
             <Typography variant="h2">Which town in {regionContext.region}</Typography>
             <TextField
+                variant="filled"
                 onChange={(e) => { setTown(e.target.value); toggle && setToggle() }}
                 id="outlined-search"
                 label="Search Town"
@@ -44,8 +45,12 @@ function SearchTown() {
 
             <Typography variant="h6">{toggle ? town + " doesn't have any crags" : ''}</Typography>
             <Button
-                sx={{ backgroundColor: "white", mt: '10px', borderRadius: '20px' }}
-                className="go-button"
+                variant="contained"
+                sx={{
+                    backgroundColor: "rgb(245,245,245)", color: 'black', mt: '10px', borderRadius: '20px', "&:hover": {
+                        backgroundColor: 'rgb(200,200,200)'
+                    }
+                }}
                 onClick={() => { handleGo() }}>
                 Go
             </Button>

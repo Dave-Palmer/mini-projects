@@ -38,6 +38,7 @@ function SearchRegion() {
         <>
             <Typography variant="h2">Climbing in NZ</Typography>
             <TextField
+                variant="filled"
                 onChange={(e) => { setRegion(e.target.value); toggle && setToggle() }}
                 id="outlined-search"
                 label="Search region"
@@ -45,8 +46,13 @@ function SearchRegion() {
 
             <Typography variant="h6">{toggle ? region + ' not found!' : ''}</Typography>
             <Button
-                sx={{ backgroundColor: "white", mt: '10px', borderRadius: '20px' }}
-                className="go-button"
+                variant="contained"
+                sx={{
+                    backgroundColor: "rgb(245,245,245)", color: 'black', mt: '10px', borderRadius: '20px', "&:hover": {
+                        backgroundColor: 'rgb(200,200,200)'
+                    }
+                }}
+
                 onClick={() => { handleGo() }}>
                 Go
             </Button>

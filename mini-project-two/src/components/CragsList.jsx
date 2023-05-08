@@ -7,7 +7,7 @@ import BackToSearch from "./BackToSearch"
 
 
 function ClimbingAreaList() {
-    const { cragsData, setCragsData } = useContext(CragsDataContext)
+    const { cragsData } = useContext(CragsDataContext)
 
     return (
         <div >
